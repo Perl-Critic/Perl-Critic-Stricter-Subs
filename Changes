@@ -1,5 +1,11 @@
 Revision history for Perl module Perl::Critic::StricterSubs
 
+NEXT
+
+    [Internals]
+    Change all uses of List::MoreUtils to List::SomeUtils, since that's
+    what Perl::Critic is using these days.
+
 0.08 2024-10-21
 
     Minimum Perl version is now 5.10.1, the same as Perl::Critic itself.
