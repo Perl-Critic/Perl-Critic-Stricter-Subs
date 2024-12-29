@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Perl::Critic::Policy';
 
-use List::MoreUtils qw( any );
+use List::SomeUtils qw( any );
 use Readonly;
 
 use Perl::Critic::Utils qw(

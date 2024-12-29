@@ -7,7 +7,7 @@ use base 'Exporter';
 
 use Carp qw(croak);
 
-use List::MoreUtils qw( any );
+use List::SomeUtils qw( any );
 use Perl::Critic::Utils qw(
     :characters
     :severities
